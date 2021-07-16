@@ -3,7 +3,7 @@
     <h3>Let's create a new account</h3>
     <input type="email" name="email" id="email" placeholder="Email"><br>
     <input type="password" name="password" id="password" placeholder="Password"><br>
-    <button>Sign Up</button>
+    <button @click="login">Sign Up</button>
     <span>or <router-link to="/login">go back to login</router-link>.</span>
   </div>
 </template>
@@ -15,7 +15,9 @@ export default {
     return{};
   },
   methods: {
-
+    login(){
+      this.$router.replace('home');
+    },
   }
 }
 </script>
