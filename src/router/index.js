@@ -15,12 +15,7 @@ let app = '';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB3If00QVTTMTvG3DjjXndc70RrSrmnHjQ",
-  authDomain: "vue2-firebase-auth-ec115.firebaseapp.com",
-  projectId: "vue2-firebase-auth-ec115",
-  storageBucket: "vue2-firebase-auth-ec115.appspot.com",
-  messagingSenderId: "591170449804",
-  appId: "1:591170449804:web:f92f25552171e71265e6a9"
+  /*HERE YOUR FIREBASE CONFIG CREDENTIALS*/
 };
 
 // Initialize Firebase
